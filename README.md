@@ -36,3 +36,24 @@ Remote note storage and syncing will be the next feature added. This will go han
 - macOS
 - Linux
 - Windows
+
+### Installation
+Tknote requires Python>=3.10.2. If you do not have a compatible version of python installed on your system, please install that first.
+
+Clone the repo and cd into the new directory.
+```
+git clone https://github.com/smcbenttez/tknote.git && cd tknote
+```
+Create a virtual environment and activate it.
+```
+python3 -m venv venv
+source ./venv/bin/activate
+```
+Use pip to install the package. If you want to modify the source use the '-e' flag.
+```
+pip install -e ./
+```
+Run Tknote. A sqlite database that stores the application data will be created in the same directory if one is not found. Currently the applicaiton expects the database to live in the directory from where the application is executed. If you want to move the database file, create a symlink to the new location.
+```
+python -m tknote
+```
