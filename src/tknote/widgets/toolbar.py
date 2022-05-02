@@ -33,10 +33,6 @@ class Toolbar(tk.Frame):  # pylint: disable=too-many-ancestors
         )
 
         self.delete_button = tk.Button(self.button_frame, text='Delete')
-        self.delete_button = tk.Button(
-            self.button_frame,
-            image=delete_button_image
-        )
         self.delete_button.pack(
             in_=self.button_frame,
             side=tk.LEFT,
