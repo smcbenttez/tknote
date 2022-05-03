@@ -1,3 +1,4 @@
+![Hello](./note_pad.png?raw=True "Hello")
 # TkNote
 The goal of this project is to create a cross platform drop in replacement for the Notes application on macOS.
 
