@@ -5,7 +5,7 @@ The goal of this project is to create a cross platform drop in replacement for t
 ## Current Status
 TkNote is still very much a work in progress and is in the alpha stages of development. In its current state it provides users all the basic functionality to create, delete, and store notes.
 
-Remote note storage and syncing will be the next feature added. This will go hand in hand with work on the storage service which can be tracked [here].
+Remote note storage and syncing will be the next feature added. This will go hand in hand with work on the storage service which can be tracked [here](https://github.com/smcbenttez/remotenote).
 
 ### Project Features:
 - Only uses the Python Standard Library (tkinter used for GUI)
