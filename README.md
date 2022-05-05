@@ -8,7 +8,6 @@ TkNote is still very much a work in progress and is in the alpha stages of devel
 Remote note storage and syncing will be the next feature added. This will go hand in hand with work on the storage service which can be tracked [here].
 
 ### Project Features:
-- Only uses the Python Standard Library (tkinter used for GUI)
 - reST docstrings compatible with Sphinx for automatic documentation
 - Complete type annotations to be used with static checkers like [mypy](https://github.com/python/mypy)
 - Rudimentary animation support for tkinter widgets
